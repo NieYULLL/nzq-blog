@@ -42,7 +42,7 @@ build:
     expire_in: 1 week
   only:
     - main
-    - develop
+    - dev
     - merge_requests
   tags:
     - docker
@@ -63,7 +63,7 @@ test:
     expire_in: 1 week
   only:
     - main
-    - develop
+    - dev
     - merge_requests
   tags:
     - docker
@@ -81,7 +81,7 @@ package:
     expire_in: 1 week
   only:
     - main
-    - develop
+    - dev
     - tags
   tags:
     - docker
@@ -106,7 +106,7 @@ docker-build:
     expire_in: 1 week
   only:
     - main
-    - develop
+    - dev
     - tags
   tags:
     - docker
@@ -129,7 +129,7 @@ docker-push:
     - docker push $DOCKER_IMAGE:latest
   only:
     - main
-    - develop
+    - dev
     - tags
   tags:
     - docker
@@ -204,7 +204,7 @@ deploy-staging:
       "
   when: manual
   only:
-    - develop
+    - dev
   tags:
     - docker
   dependencies:
