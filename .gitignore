@@ -1,0 +1,184 @@
+# ==============================
+# IDE and Editor files
+# ==============================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Vim
+*.swp
+*.swo
+
+# ==============================
+# Operating System files
+# ==============================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==============================
+# Backend (Spring Boot)
+# ==============================
+
+# Maven
+backend/target/
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/pom.xml.next
+backend/release.properties
+backend/dependency-reduced-pom.xml
+backend/buildNumber.properties
+backend/.mvn/timing.properties
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+backend/*.log
+backend/logs/
+
+# Application configs (non-default)
+backend/application-local.yml
+backend/application-dev.yml
+backend/application-prod.yml
+
+# Spring Boot Actuator (if added later)
+backend/actuator/
+
+# ==============================
+# Frontend (Vue.js) - when created
+# ==============================
+
+# Node.js
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.npm
+frontend/.yarn
+frontend/.yarnrc
+
+# Build outputs
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# Coverage
+frontend/coverage/
+
+# Editor
+frontend/.vscode/
+
+# Vue CLI
+frontend/.vuepress/dist/
+
+# ==============================
+# Docker
+# ==============================
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.override.yml
+
+# ==============================
+# Environment variables
+# ==============================
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ==============================
+# Test and coverage reports
+# ==============================
+
+# Unit test reports
+*Test-report.html
+*Test.xml
+*.trx
+
+# Coverage reports
+*.coverage
+*.coveragexml
+
+# ==============================
+# System files
+# ==============================
+
+# System files
+*.sys
+*.dmp
+
+# ==============================
+# Temporary files
+# ==============================
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ==============================
+# Claude Code and other tools
+# ==============================
+
+# Claude Code
+.claude/
+.claude/settings.local.json
+
+# ==============================
+# Logs (general)
+# ==============================
+
+# Log files
+*.log
+logs/
+
+# ==============================
+# Misc
+# ==============================
+
+# Sensitive data
+secrets*.yml
+secrets*.yaml
+secrets*.properties
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
