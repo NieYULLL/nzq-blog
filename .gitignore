@@ -182,3 +182,7 @@ secrets*.properties
 *.gz
 *.rar
 *.7z
+
+.git/
+.claude/
+CLAUDE.md
